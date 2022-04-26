@@ -1,0 +1,23 @@
+{
+ "collection_info": {
+  "description": null, 
+  "repository": "https://github.com/wwwvikas123/ansible-role-docker", 
+  "tags": [], 
+  "dependencies": null, 
+  "authors": [
+   "vika loseva"
+  ], 
+  "issues": null, 
+  "name": "sample", 
+  "license": [
+   "GPL"
+  ], 
+  "documentation": null, 
+  "namespace": "docker", 
+  "version": "1.0.0", 
+  "readme": "README.md", 
+  "license_file": null, 
+  "homepage": null
+ },  
+ "format": 1
+}
