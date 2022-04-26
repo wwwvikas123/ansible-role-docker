@@ -19,7 +19,7 @@
       loop: [ 'yum-utils', 'epel-release']      
 
     - name: Upgrade all packages
-      yum:
+      dnf:
         name: '*'
         state: latest         
 
