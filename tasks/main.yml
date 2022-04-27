@@ -15,11 +15,11 @@
         groups: "{{ user }}"
 
     - name: Install yum-utils and epel
-      dnf: name={{ item }} state=latest update_cache=yes
+      yum: name={{ item }} state=latest update_cache=yes
       loop: [ 'yum-utils', 'epel-release']      
 
     - name: Upgrade all packages
-      dnf:
+      yum:
         name: '*'
         state: latest         
 
